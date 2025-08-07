@@ -1,0 +1,35 @@
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+body {
+    background-color:khaki;
+}
+.container {
+    background-color:antiquewhite;
+    width: 500px;
+    height: 650px;
+    border: 1px solid rgba(17, 17, 17, 0.685);
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+h1 {
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    
+ }
+.container__image {
+    width: 400px;
+    height: 400px; 
+    display:block;
+    margin: 0 auto;
+    padding: 0px;
+    animation: rotation 7s infinite linear;
+    
+
+}
