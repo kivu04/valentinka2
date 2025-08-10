@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 .container {
     background-color:antiquewhite;
@@ -21,7 +22,7 @@ body {
     padding: 50px 20px;
     position: relative;
 }
-h1 {
+.container__title {
     font-style: italic;
     font-family:'Courier New', Courier, monospace;
     text-align: center;
@@ -36,7 +37,7 @@ h1 {
     animation: rotation 7s infinite linear;
   
 }
-h2 {
+.container__subtitle {
     font-style: italic;
     font-family:'Courier New', Courier;
     text-align: center;
@@ -52,10 +53,10 @@ h2 {
     position: absolute;
     right: 20px;
     bottom: 20px;
-   cursor: pointer;
+    cursor: pointer;
+    transition: opacity .3s  ease;
 }
- 
-    
-    
-    
-    
+
+.container__button:hover {
+    opacity: .7;
+}
