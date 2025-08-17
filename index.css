@@ -57,6 +57,6 @@ body {
     transition: opacity .3s  ease;
 }
 
-.container__button:hover {
+/* .container__button:hover {
     opacity: .7;
-}
+} */
